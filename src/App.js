@@ -1,15 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './componets/pure/greeting';
-import GreetingF from './componets/pure/greetingF';
-import TaksListComponent from './componets/container/taks_list';
+import ComponenteA from './componets/pure/componenteA';
+
+
 
 function App() {
+ const contactoPrueba={
+  nombre: 'Lohana',
+  apellido:'orellano',
+  email: 'lohana@mail.com',
+  conectado:false
+
+ }
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-  
+        <ComponenteA contacto={contactoPrueba}></ComponenteA>
       </header>
     </div>
   );

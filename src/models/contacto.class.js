@@ -1,13 +1,13 @@
-export class Contact{
+export class contacto {
     nombre="";
     Apellido="";
     email="";
-    conevted=false;
+    conectado=false;
 
-    constructor(nombre,apellido,email,conected){
+    constructor(nombre,apellido,email,conectado){
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
-        this.conected = conected;
+        this.conectado = conectado;
     }
 }
